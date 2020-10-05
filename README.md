@@ -49,7 +49,7 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 Escribe en esta sección la complejidad computacional que coresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
 
 
-**Dado el tiempo de ejecución n, despreciando las constantes, ya que el ciclo se ejecuta completo: Complejidad= O(n) el peor escenario**
+**Dado el tiempo de ejecución n, despreciando las constantes, ya que el ciclo se ejecuta completo: Complejidad= theta(n) el peor escenario**
 
 ### Algoritmo 2
 ```
@@ -78,7 +78,7 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 ##### Complejidad
 Escribe en esta sección la complejidad computacional que corresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
 
-**El tiempo de ejecución es de n, por ello, sería O(n), o sea, que es el peor escenario posible, debido a que ejecuta el ciclo completo**
+**El tiempo de ejecución es de n, por ello, sería theta(n), o sea, que es el peor escenario posible, debido a que ejecuta el ciclo completo**
 
 ### Algoritmo 3
 ```
@@ -101,12 +101,12 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 
 |valores_x|valores_y|resultado|
 |-|-|-|
-|[1, 2, 3]|[1, 2, 3, 4, 5]|**Tu respuesta aquí**|
-|[2, 4]|[7, 5, 2, 8, 3]|**Tu respuesta aquí**|
-|[3, 5, 2]|[6, 5, 3, 7, 1, 2]|**Tu respuesta aquí**|
+|[1, 2, 3]|[1, 2, 3, 4, 5]|**True**|
+|[2, 4]|[7, 5, 2, 8, 3]|**False**|
+|[3, 5, 2]|[6, 5, 3, 7, 1, 2]|**True**|
 
 
 ##### Complejidad
 Escribe en esta sección la complejidad computacional que coresponde con el algoritmo anterior en las diferentes notaciones que creas correspondientes (*O* y/o Ω y/o Θ).
 
-**Tu respuesta aquí**
+**En este caso, la complejidad es de n^2 por ser un ciclo anidado, el cual se ejecuta al 100% de los valores, haciendo la complejidad de theta(n)**
